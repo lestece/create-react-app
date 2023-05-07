@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="nice to meet you!" name="Mike" age="32"/>
-      <StatefulGreeting />
+      <StatefulGreeting greeting="this is a stateful class component!" name="Sarah"/>
     </div>
   );
 }
