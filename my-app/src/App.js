@@ -3,6 +3,7 @@ import './App.css';
 import FunctionalGreeting from './components/FunctionalGreetings';
 import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithProps';
 import StatefulGreeting from './components/StatefulGreeting';
+import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="nice to meet you!" name="Mike" age="32"/>
       <StatefulGreeting greeting="this is a stateful class component!" name="Sarah"/>
+      <StatefulGreetingWithCallback />
     </div>
   );
 }

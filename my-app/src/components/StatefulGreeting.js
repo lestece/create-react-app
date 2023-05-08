@@ -14,6 +14,8 @@ class StatefulGreeting extends React.Component{
             introduction: "Goodbye",
             buttonText: "Enter",
         });
+        console.log(this.state.introduction);
+        console.log(this.state.buttonText);
     }
     
     render() {
